@@ -2,7 +2,6 @@ import ntplib
 import time
 import logging
 import os
-import keyboard
 logPath = "clientLog.log"
 FORMAT = '%(levelname)s  -%(lineno)d -%(module)s - %(message)s  '
 def ntp_time():

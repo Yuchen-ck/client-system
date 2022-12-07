@@ -22,7 +22,7 @@ def upload_client_model(DBstring,encFolder):
     #遍歷h5 file目錄集合
     for file in files:
         #h5 file的全路徑
-        filesname = dirs + '\\' + file
+        filesname = dirs + file
         #分割，為了儲存h5 file檔案的格式和名稱
         f = file.split('.')
         #類似於建立檔案

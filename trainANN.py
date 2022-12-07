@@ -15,7 +15,7 @@ from encrypt_utils import *
 def trainANN(client_name,fixKey):
     
     batch_size_, epochs_ = train_parameters()
-    dataPath = "./train_data/dataset.csv" 
+    dataPath = "dataset.csv" 
     
     x_train_dataset ,y_train ,x_test_dataset ,y_test = preprocession_dataset(dataPath)
     

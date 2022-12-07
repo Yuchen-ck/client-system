@@ -109,6 +109,7 @@ class TrainFuction(QDialog, Third):
     def MainFunction(self):
         encClientPath = './enc_client_model/'
         os.makedirs(encClientPath)
+        
         client_name = self.clientNameEdit.text()
         
         #1. 訓練client model
